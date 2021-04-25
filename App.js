@@ -73,19 +73,19 @@ export default function App() {
 
 const styles = StyleSheet.create({
   statusBar: {
-    backgroundColor: "#7F39FB",
+    backgroundColor: "blue",
     color: "#fff",
     width: "100%",
-    height: 30
+    height: 50
   },
   container: {
     flex: 1,
     backgroundColor: "#fff",
     alignItems: "center",
-    justifyContent: "flex-start"
+    justifyContent: "flex-start",
   },
   todo: {
-    flexDirection: "row",
+    margin: 60,
     width: "100%",
     justifyContent: "center",
     alignItems: "center"
@@ -93,8 +93,8 @@ const styles = StyleSheet.create({
   textbox: {
     borderWidth: 1,
     borderColor: "#7F39FB",
-    borderRadius: 8,
-    padding: 10,
+    borderRadius: 80,
+    padding: 15,
     margin: 10,
     width: "80%"
   }

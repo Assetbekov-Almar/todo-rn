@@ -4,14 +4,14 @@ import { StyleSheet, Text, View } from "react-native";
 export default function AppBar(){
     return (
         <View style={styles.appBar}>
-            <Text style={styles.heading}>Todo App</Text>
+            <Text style={styles.heading}>Todo App in React Native</Text>
         </View>
     );
 }
 
 const styles = StyleSheet.create({
     appBar: {
-        backgroundColor: "#7F39FB",
+        backgroundColor: "blue",
         color: "white",
         width: "100%",
         height: 50,
@@ -21,6 +21,6 @@ const styles = StyleSheet.create({
     heading: {
         color: "white",
         fontSize: 24,
-        fontWeight: "400"
+        fontWeight: "700"
     }
 });

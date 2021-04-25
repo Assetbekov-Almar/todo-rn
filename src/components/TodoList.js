@@ -31,21 +31,22 @@ const styles = StyleSheet.create({
         width: "100%",
         display: "flex",
         flexDirection: "row",
-        justifyContent: "space-around",
+        justifyContent: "space-between",
         alignItems: "center",
-        backgroundColor: "white",
-        padding: 10,
+        backgroundColor: "lightyellow",
+        padding: 15,
+        margin: 7,
         borderBottomWidth: 0.5,
-        borderBottomColor: "#666666"
+        borderBottomColor: "blue"
     },
     leading: {
         width: "20%"
     },
     title: {
-        width: "60%",
+        width: "70%",
         fontSize: 18
     },
     trailing: {
-        width: "20%"
+        width: "10%"
     }
 });
